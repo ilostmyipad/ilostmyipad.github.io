@@ -2,6 +2,7 @@
 [![Deploy static content to Pages](https://github.com/ilostmyipad/ilostmyipad.github.io/actions/workflows/static.yml/badge.svg)](https://github.com/ilostmyipad/ilostmyipad.github.io/actions/workflows/static.yml)<hr>
 ![Capture](https://github.com/ilostmyipad/ilostmyipad.github.io/assets/161907159/b7870a13-56cb-498a-a5ef-810cefaac0c6)
 
+```
 # Simple workflow for deploying static content to GitHub Pages
 name: Deploy static content to Pages
 
@@ -45,3 +46,5 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+```
